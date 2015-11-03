@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Windmill</title>
+
+  <style type="text/css">
+    #windmill {
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="windmill"></div>
+
+  <script src="windmill.js"></script>
+  <script type="application/javascript">
+    Windmill.debugView = true;
+
+    var windmillEl = document.getElementById('windmill');
+    var windmill = new Windmill(windmillEl);
+  </script>
+</body>
+</html>

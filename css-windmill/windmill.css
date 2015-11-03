@@ -1,0 +1,12 @@
+.windmill {
+  animation: windmill 2s infinite cubic-bezier(.37, .13, .39, .8);
+}
+
+@keyframes windmill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
